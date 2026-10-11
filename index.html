@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf5f3">
+  <meta name="description" content="A romantic digital wedding invitation.">
+  <title>Adam & Layan — Wedding Invitation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="preloader" class="preloader">
+    <div class="preloader-mark">A <span>&</span> L</div>
+    <p>Our story begins here</p>
+  </div>
+
+  <div class="flower flower-top-left">✽</div>
+  <div class="flower flower-top-right">✾</div>
+
+  <main>
+    <!-- Opening -->
+    <section class="opening" id="opening">
+      <div class="opening-inner reveal">
+        <span class="eyebrow">THE WEDDING OF</span>
+        <h1><span data-groom>Adam</span> <i>&</i> <span data-bride>Layan</span></h1>
+        <div class="opening-line"></div>
+        <p class="opening-date" data-date-label>Saturday · 19 December 2026</p>
+        <button class="open-btn" id="openInvitation">Open Invitation <span>↗</span></button>
+      </div>
+      <div class="botanical botanical-a">❀</div>
+      <div class="botanical botanical-b">❧</div>
+    </section>
+
+    <!-- Main -->
+    <section class="hero section-pad">
+      <div class="container narrow center reveal">
+        <span class="eyebrow">TOGETHER WITH THEIR FAMILIES</span>
+        <h2><span data-groom>Adam</span> <em>&</em> <span data-bride>Layan</span></h2>
+        <p class="lead">invite you to celebrate the beginning of their forever.</p>
+        <div class="date-card">
+          <span data-weekday>Saturday</span>
+          <strong data-date-short>19.12.26</strong>
+          <span data-time>07:00 PM</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="story section-pad soft-bg">
+      <div class="container two-col">
+        <div class="story-photo image-wrap reveal">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85" alt="Wedding couple">
+          <div class="photo-caption">A day to remember</div>
+        </div>
+        <div class="story-copy reveal">
+          <span class="eyebrow">OUR SPECIAL DAY</span>
+          <h3>A little moment,<br><em>a lifetime together.</em></h3>
+          <p>With joyful hearts and the people we love around us, we are celebrating a new chapter in our story.</p>
+          <p class="small-note">Your presence is the most beautiful gift we could ask for.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">MOMENTS</span>
+          <h3>Our <em>Gallery</em></h3>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item tall reveal">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=85" alt="Wedding detail">
+          </div>
+          <div class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=85" alt="Wedding table">
+          </div>
+          <div class="gallery-item reveal">
+            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=900&q=85" alt="Wedding venue">
+          </div>
+          <div class="gallery-item wide reveal">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85" alt="Wedding celebration">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event -->
+    <section class="event section-pad soft-bg">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="eyebrow">JOIN US</span>
+          <h3>Wedding <em>Details</em></h3>
+        </div>
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <span class="event-icon">01</span>
+            <h4>THE DATE</h4>
+            <p data-full-date>Saturday, December 19, 2026</p>
+            <small data-time>07:00 PM</small>
+          </article>
+          <article class="event-card reveal">
+            <span class="event-icon">02</span>
+            <h4>THE VENUE</h4>
+            <p data-venue>The Gardenia Palace</p>
+            <small data-city>Cairo, Egypt</small>
+          </article>
+          <article class="event-card reveal">
+            <span class="event-icon">03</span>
+            <h4>THE RECEPTION</h4>
+            <p>Welcome drinks</p>
+            <small>Reception starts at 07:00 PM</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown-section section-pad">
+      <div class="container center reveal">
+        <span class="eyebrow">COUNTING DOWN</span>
+        <h3>Until we say <em>“I do”</em></h3>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">00</strong><span>DAYS</span></div>
+          <div><strong id="hours">00</strong><span>HOURS</span></div>
+          <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+          <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar -->
+    <section class="calendar-section section-pad soft-bg">
+      <div class="container calendar-layout">
+        <div class="calendar-copy reveal">
+          <span class="eyebrow">SAVE THE DATE</span>
+          <h3>Keep this day<br><em>close to your heart.</em></h3>
+          <p>Save our special date so you can celebrate every moment with us.</p>
+          <button class="outline-btn" id="calendarBtn">Add to Calendar</button>
+        </div>
+        <div class="calendar-card reveal">
+          <div class="calendar-top">
+            <span id="calendarMonth">DECEMBER</span>
+            <span id="calendarYear">2026</span>
+          </div>
+          <div class="weekdays">
+            <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+          </div>
+          <div class="days" id="calendarDays"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location section-pad">
+      <div class="container two-col location-grid">
+        <div class="location-card reveal">
+          <span class="eyebrow">WHERE</span>
+          <h3>Meet us at<br><em data-venue>The Gardenia Palace</em></h3>
+          <p data-address>New Cairo, Cairo, Egypt</p>
+          <a class="map-btn" data-maps href="https://www.google.com/maps/search/?api=1&query=The+Gardenia+Palace+Cairo" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+        </div>
+        <div class="map-placeholder reveal">
+          <div class="map-pattern">
+            <span>✦</span>
+            <strong>THE GARDENIA PALACE</strong>
+            <small>CAIRO · EGYPT</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dress Code -->
+    <section class="dress section-pad soft-bg">
+      <div class="container center reveal">
+        <span class="eyebrow">DRESS CODE</span>
+        <h3>Soft <em>Romance</em></h3>
+        <p class="lead">Elegant evening attire · neutral & warm tones</p>
+        <div class="swatches">
+          <span style="--swatch:#f4e6e1"></span>
+          <span style="--swatch:#d9b9b0"></span>
+          <span style="--swatch:#b98f83"></span>
+          <span style="--swatch:#8d665d"></span>
+          <span style="--swatch:#2d2928"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guestbook -->
+    <section class="guestbook section-pad">
+      <div class="container narrow center reveal">
+        <span class="eyebrow">GUESTBOOK</span>
+        <h3>Leave us a <em>Wish</em></h3>
+        <p class="lead">A few words from you will make our day even more special.</p>
+        <form id="guestbookForm" class="guest-form">
+          <input type="text" id="guestName" placeholder="Your name" required>
+          <textarea id="guestMessage" rows="4" placeholder="Write your wishes..." required></textarea>
+          <button class="open-btn" type="submit">Send Wishes <span>♡</span></button>
+        </form>
+        <p class="form-note" id="formNote"></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-mark">A <span>&</span> L</div>
+      <p>With love, Adam & Layan</p>
+      <small>Our special day · 19.12.2026</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
